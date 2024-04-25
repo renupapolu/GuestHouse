@@ -1,0 +1,10 @@
+.gallery{
+    background-color: #f9f9f9;
+ }
+.gallery:hover{
+    background-color:rgb(244, 217, 222)
+  }
+.image-gallery-thumbnail img {
+   width: auto;
+   height: 75px;
+}

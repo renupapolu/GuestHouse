@@ -1,0 +1,30 @@
+.container{
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+}
+.container:hover{
+    background-color:rgb(244, 217, 222)
+}
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+        padding: 10px;
+    }
+}
+@media (max-width: 576px) {
+    h4 {
+        font-size: 24px;
+    }
+    h6 {
+        font-size: 18px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .form-label,
+    .form-control,
+    .btn {
+        font-size: 14px;
+    }
+}
